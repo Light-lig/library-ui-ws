@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.itca.edu.sv_srcc-ws_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.itca.edu.sv.srcc.entities.Permiso</class>
+    <class>com.itca.edu.sv.srcc.entities.Reservaciongrupomodulo</class>
+    <class>com.itca.edu.sv.srcc.entities.ModuloRequisitos</class>
+    <class>com.itca.edu.sv.srcc.entities.Horario</class>
+    <class>com.itca.edu.sv.srcc.entities.GrupoModulo</class>
+    <class>com.itca.edu.sv.srcc.entities.Perfil</class>
+    <class>com.itca.edu.sv.srcc.entities.Menu</class>
+    <class>com.itca.edu.sv.srcc.entities.Firma</class>
+    <class>com.itca.edu.sv.srcc.entities.Requisito</class>
+    <class>com.itca.edu.sv.srcc.entities.Equipo</class>
+    <class>com.itca.edu.sv.srcc.entities.Cursos</class>
+    <class>com.itca.edu.sv.srcc.entities.Modulo</class>
+    <class>com.itca.edu.sv.srcc.entities.Ciclo</class>
+    <class>com.itca.edu.sv.srcc.entities.Observacion</class>
+    <class>com.itca.edu.sv.srcc.entities.DetalleReserva</class>
+    <class>com.itca.edu.sv.srcc.entities.Reservacion</class>
+    <class>com.itca.edu.sv.srcc.entities.Grupo</class>
+    <class>com.itca.edu.sv.srcc.entities.Aula</class>
+    <class>com.itca.edu.sv.srcc.entities.Rol</class>
+    <class>com.itca.edu.sv.srcc.entities.Carrera</class>
+    <class>com.itca.edu.sv.srcc.entities.Dia</class>
+    <class>com.itca.edu.sv.srcc.entities.Empleado</class>
+    <class>com.itca.edu.sv.srcc.entities.ReservaHorario</class>
+    <class>com.itca.edu.sv.srcc.entities.Departamento</class>
+    <class>com.itca.edu.sv.srcc.entities.Usuario</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/asignacionComputoDB?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>

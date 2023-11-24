@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<queries>
+<query name="GET_MENUS">
+        <![CDATA[
+			select * from menu m 
+        ]]>
+	</query>
+</queries>
