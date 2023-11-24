@@ -3,6 +3,7 @@ package com.focus.sv.ws.dto;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.focus.sv.ws.model.Book;
 
 import lombok.AllArgsConstructor;
@@ -22,6 +23,7 @@ public class UserDto {
 
     private String lastName;
 
+    @JsonIgnore
     private String password;
 
     private String email;

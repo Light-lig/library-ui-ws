@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  librari-ui-ws:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://library-ui-ws-database-1:3306/librariuidb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      - database
+
+  database:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: librariuidb
+      MYSQL_ROOT_PASSWORD: 1234
