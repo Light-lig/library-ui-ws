@@ -3,7 +3,7 @@
 
 Follow these steps to run the application in a Docker environment:
 
-1. Clone the repository: `git clone https://your-repository.git`
+1. Clone the repository: `git clone https://github.com/Light-lig/library-ui-ws.git`
 2. Navigate to the application directory: `cd library-ui-ws`
 3. Build the Docker image: `docker-compose build`
 4. Start the containers: `docker-compose up`
